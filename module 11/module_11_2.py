@@ -30,12 +30,9 @@ class MyClass:
     def my_method(self):
         pass
 
-
-# Создание экземпляра класса
-obj = MyClass(42)
-
 # Вызов функции introspection_info
-info = introspection_info(obj)
-
+info = introspection_info(42)
+info1 = introspection_info(MyClass)
 # Вывод информации о объекте
 pprint.pprint(info)
+pprint.pprint(info1)
