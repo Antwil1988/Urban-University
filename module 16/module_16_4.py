@@ -8,7 +8,7 @@ users = []
 
 
 class User(BaseModel):
-    id: int = None
+    id: int
     username: str
     age: int
 
